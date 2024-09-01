@@ -80,6 +80,16 @@
 					</excludes>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.flywaydb</groupId>
+				<artifactId>flyway-maven-plugin</artifactId>
+				<version>10.10.0</version>
+				<configuration>
+					<url>jdbc:postgresql://localhost:5432/eventostec</url>
+					<user>postgres</user>
+					<password>admin123</password>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 
